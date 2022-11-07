@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./display.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-dark ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <img  class="image" src="./21023637.jpg" alt="">
+            <a class="navbar-brand ms-2" href="#">Change Mobile</a>
+            <div class="input-group w-50">
+                <span class="input-group-text">Mobiles</span>
+                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                 </div>
+            <form class="d-flex ">
+                 <button class="btn btn-secondary ms-1" type="submit">Search</button>
+            </form>
+
+            <ul class="navbar-nav ms-5">
+                
+
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>My Account</option>
+                    <option value="myprofile">My Profile</option>
+                    <option value="myorders">My Orders</option>
+                    <option value="mywishlist">My Wishlist</option>
+                    
+                  </select>
+                
+
+                <li class="nav-item d-flex ms-4 ">
+                  <i class="fa fa-shopping-cart cart-icon mt-2 me-2 fs-3" id="cart-icon" aria-hidden="true"></i>
+                
+                    
+                    <a class="nav-link active fs-5  " aria-current="page" href="./login.html">Logout</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+    </nav>
+    
+   <div class="d-flex " id="data">
+        <div class="container-fluid menulist w-25 ms-0 ">
+        <ul class="nav flex-column  ">
+           <li class="nav-item">
+             <a class="nav-link active fw-bolder text-dark" aria-current="page" href="#">Category</a>
+           </li>
+   
+           <li class="nav-item">
+               <a class="nav-link text-black" aria-current="page" href="#"><b>Operating System</b><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Android Mobiles <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Windows Mobiles <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   iOS Mobiles
+               </a>
+   
+               <a class="nav-link text-black" aria-current="page" href="#"><b>Brands</b><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Samsung <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Redmi <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   OPPO <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   MI <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Nokia<br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   VIVO <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Apple <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Sony <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Lenovo <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   LG <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   One Plus 
+               </a>
+   
+               
+               <a class="nav-link text-black" aria-current="page" href="#"><b>Avg. Customer Rating</b><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star "></span> <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star "></span>
+                   <span class="fa fa-star "></span> <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star "></span>
+                   <span class="fa fa-star "></span>
+                   <span class="fa fa-star "></span> <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star "></span>
+                   <span class="fa fa-star "></span>
+                   <span class="fa fa-star "></span>
+                   <span class="fa fa-star "></span>
+               </a>
+   
+               <a class="nav-link text-black" aria-current="page" href="#"><b>Pay on Delivery</b><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Eligible for Pay on Delivery
+                   
+               </a>
+   
+               <a class="nav-link text-black" aria-current="page" href="#"><b>New Arrivals</b><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Last 1 Month <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Last 3 Months
+               </a>
+   
+               <a class="nav-link text-black" aria-current="page" href="#"><b>Item Condition</b><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   New <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Used
+               </a>
+   
+               <a class="nav-link text-black" aria-current="page" href="#"><b>Price</b><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Less than 1000 <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   1000 - 5000 <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   5000-10000 <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Above 10000
+               </a>
+   
+               <a class="nav-link text-black" aria-current="page" href="#"><b>Deals</b><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Special Offers <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   No Cost EMI
+               </a>
+   
+               <a class="nav-link text-black" aria-current="page" href="#"><b>Discount</b><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Upto 10% <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Upto 20% <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Upto 30% <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Above 30%
+               </a>
+   
+               <a class="nav-link text-black" aria-current="page" href="#"><b>Availability</b><br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Existing Stock <br>
+                   <input class="form-check-input me-1 " type="checkbox" value="" aria-label="...">
+                   Include Out of Stock
+               </a>
+   
+   
+   
+   
+               
+             </li>
+          
+           
+         </ul>
+        </div>
+      
+        <div>
+            <div class="row row-cols-1 row-cols-xl-4 row-cols-sm-2 row-cols-md-3 g-4 m-2">
+                <div class="col details" >
+                  <div class="card h-100 objectfit">
+                    <img src="./oneplus.jpg" class="card-img-top imageitem product-image" alt="...">
+                    <div class="card-body cardhover ">
+                      <h5 class="card-title ">
+                        <a href="#" onclick="details(0) " style="text-decoration:none ;">Nord CE 2 5G</a>
+                        </h5>
+                      <h6>8GB RAM, 128GB Storage</h6>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <h5 class="price">₹24999</h5>
+                      <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col details">
+                    <div class="card h-100 objectfit">
+                      <img src="./redmi.jpg" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title ">
+                          <a  onclick="details(1)"  style="text-decoration:none ; " href="#">
+                            Redmi 9 Activ
+                          </a>          
+                          </h5>
+                        <h6>4GB RAM, 64GB Storage</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <h5 class="price">₹9499</h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col details">
+                    <div class="card h-100 ">
+                      <img src="./samsung.jpg" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title ">
+                          <a  onclick="details(2)" href="#" style="text-decoration:none ;  ">
+                            Samsung Galaxy M13
+                          </a>
+                          </h5>
+                        <h6>4GB RAM, 64GB Storage</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h5 class="price">₹11999 </h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col details">
+                    <div class="card h-100 ">
+                      <img src="./apple.jpg" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title">
+                          <a  onclick="details(3)" href="#" style="text-decoration:none ; ">
+                            Apple iPhone 14
+                          </a>
+                          </h5>
+                        <h6> 128GB Storage</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <h5 class="price">₹79999</h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                   
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col details">
+                    <div class="card h-100 ">
+                      <img src="./nokia.jpg" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title">
+                          <a  onclick="details(4)" href="#" style="text-decoration:none ; ">
+                            Nokia G21
+                          </a>
+                          </h5>
+                        <h6>4GB RAM, 64GB Storage</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <h5 class="price">₹12499</h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col details">
+                    <div class="card h-100 ">
+                      <img src="./oppo.jpg" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title">
+                          
+                          <a  onclick="details(5)" href="#" style="text-decoration:none ;  ">
+                            OPPO A74 5G
+                          </a>
+                          </h5>
+                        <h6>6GB RAM, 128GB Storage</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <h5 class="price">₹14990</h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                   
+                      </div>
+                    </div>
+                </div>
+                 
+                <div class="col details">
+                    <div class="card h-100 ">
+                      <img src="./nokia150.jpg" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title">
+                          <a  onclick="details(6)" href="#" style="text-decoration:none ; ">
+                            Nokia 150
+                          </a>
+                         </h5>
+                        <h6>Model: 2020</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <h5 class="price">₹2599</h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                   
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col details">
+                    <div class="card h-100 ">
+                      <img src="./vivo 21.webp" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title">
+                          <a  onclick="details(7)" href="#" style="text-decoration:none ;  ">
+                            VIVO Y21
+                          </a>
+                          </h5>
+                        <h6>4GB RAM, 64GB Storage</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <h5 class="price">₹24999 </h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                   
+                        </div>
+                    </div>
+                </div>
+                  
+                <div class="col details">
+                    <div class="card h-100 ">
+                      <img src="./huawei.jpg" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title">
+                          <a  onclick="details(8)" href="#" style="text-decoration:none ;  ">
+                            Huawei P50 Pro 4G
+                          </a>
+                          </h5>
+                        <h6>8GB RAM, 256GB Storage</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <h5 class="price">₹65000 </h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                   
+                        </div>
+                    </div>
+                </div>
+                  
+                <div class="col details">
+                    <div class="card h-100 ">
+                      <img src="./lenovo.jpg" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title">
+                          <a  onclick="details(9)" href="#" style="text-decoration:none ;  ">
+                            Lenovo Phab 2
+                          </a>
+                          </h5>
+                        <h6> 32GB Storage</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <h5 class="price">₹24999 </h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                   
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col details">
+                    <div class="card h-100 ">
+                      <img src="./lg.jpg" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title">
+                          <a  onclick="details(10)" href="#" style="text-decoration:none ; ">
+                            LG M2501
+                          </a>
+                         </h5>
+                        <h6>4GB Storage</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <h5 class="price">₹5499 </h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                   
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col details">
+                    <div class="card h-100 ">
+                      <img src="./vivo y15.jpg" class="card-img-top imageitem product-image" alt="...">
+                      <div class="card-body cardhover ">
+                        <h5 class="card-title">
+                          <a  onclick="details(11)" href="#" style="text-decoration:none ; ">
+                            VIVO Y 15C
+                          </a>
+                          </h5>
+                        <h6>3GB RAM, 64GB Storage</h6>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <h5 class="price">₹10499 </h5>
+                        <i class="fa fa-shopping-cart add-cart" aria-hidden="true"></i>
+                   
+                        </div>
+                    </div>
+                </div>
+                 
+                 
+              </div>
+        </div>
+
+       
+       
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <div class="cart-content">
+            
+
+          </div>
+
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">₹0</div>
+          </div>
+
+          <button type="button" class="btn btn-primary btn-buy">Buy Now</button>
+          <i class="fa fa-times cart-close " id="close-cart" aria-hidden="true"></i>
+
+           
+
+          
+        </div>
+
+        
+
+       
+
+
+   </div> 
+
+
+
+   
+    <script src="./display.js"></script>
+</body>
+</html>
